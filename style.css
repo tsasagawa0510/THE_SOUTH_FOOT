@@ -60,7 +60,7 @@ nav > ul > li > a{
 }
 
 nav > ul > li > a:hover {
-  color: #da352a;
+  color: 0991ab;
 }
 
 header {
@@ -84,7 +84,7 @@ header a {
 
 .logo-link > img {
   display: inline-block;
-  width: 80px;
+  width: 100px;
 }
 
 .serach {
@@ -109,7 +109,7 @@ header a {
 
 /* 初期時ハンバーガーメニューは非表示 */
 .header-center-link-login {
-  display: none;
+  /* display: none; */
 }
 
 .header-center-link.btn-humburger {
@@ -123,7 +123,7 @@ header a {
 }
 
 .header-center-link:hover {
-  border-bottom: solid 4px #da352a;
+  border-bottom: solid 4px #0991ab;
   transition: 0.1s;
 }
 
@@ -191,14 +191,14 @@ input[type="search"]:focus {
 }
 
 #category-nav > ul > li > a:hover {
-  color: #da352a;
-  border-bottom: solid 3px #da352a;
+  color: #0991ab;
+  border-bottom: solid 3px #0991ab;
   transition: 0.2s;
 }
 
 #category-nav > ul > li > a:hover::after {
   transform: rotate(180deg);
-  border-color: transparent transparent transparent #da352a;
+  border-color: transparent transparent transparent #0991ab;
   transition: 0.2s;
 }
 
@@ -262,7 +262,7 @@ input[type="search"]:focus {
 
 .new-span::before {
   content: "NEW";
-  color : #da352a;
+  color : #0991ab;
   padding-right: 1rem;
 }
 
@@ -277,7 +277,7 @@ input[type="search"]:focus {
 body > #header-mailinfo {
   display: block;
   font-weight: bold;
-  background-color: #000000;
+  background-color: #ffc045;
   color: #ffffff;
   font-size: 1.3rem;
   padding-top: 2px;
@@ -315,6 +315,7 @@ body > #header-mailinfo {
   line-height: 6rem;
   /* font-weight: bold; */
   color: #ffffff;
+  text-align: left;
 }
 
 #main-para > p {
@@ -326,11 +327,11 @@ body > #header-mailinfo {
   font-size: 1.3rem;
   font-weight: bold;
   display: inline-block;
-  color: #000000;
-  background-color: #ffffff;
+  color: #fff;
+  background-color: #0991ab;
   padding: 15px 30px;
   border-radius: 25px;
-  border: solid 1px #ffffff;
+  /* border: solid 1px #; */
 }
 
 #main-para > a:hover {
