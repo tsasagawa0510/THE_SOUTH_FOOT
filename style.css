@@ -359,15 +359,14 @@ body > #header-mailinfo {
   margin-left: 5px;
 }
 
-#category-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/* #category-list {
+ 
+} */
 
 .category-items {
-  width: 24%;
-  display: block;
+  /* width: 24%; */
+  /* display: block; */
+  margin: 0 10px;
 }
 
 .category-items > a {
@@ -662,7 +661,7 @@ footer  a {
   }
 
   .header-center-link:hover {
-    border-bottom: solid 1px #da352a;
+    border-bottom: solid 1px #0991ab;
     transition: 0.1s;
   }
 
@@ -726,6 +725,7 @@ footer  a {
 
   .category-wrap {
     margin: 0;
+    display: flex;
   }
   
   .category-items {
