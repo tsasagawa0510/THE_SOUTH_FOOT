@@ -289,23 +289,18 @@ body > #header-mailinfo {
   position: relative;
   overflow: hidden;
   height: calc(100vh - 139px);
-  
 }
 
-#main-visial > img {
-  width: 100%;
-  height: calc(100vh);
+.slick-slide img {
   object-fit: cover;
-  object-position: center right;
-  
-  /* transform: scale(1.02); */
+  aspect-ratio: 16/9;
 }
 
 .carouselImg {
   position: relative;
 }
 
-#main-para {
+.main-para {
   margin-left: 50px;
   text-align: left;
   position: absolute;
@@ -313,7 +308,7 @@ body > #header-mailinfo {
   left: 0;
 }
 
-#main-para > h1 {
+.main-para > h1 {
   font-family: 'Archivo Black';
   font-size: 5rem;
   line-height: 6rem;
@@ -322,12 +317,12 @@ body > #header-mailinfo {
   text-align: left;
 }
 
-#main-para > p {
+.main-para > p {
   color: #ffffff;
   padding: 20px 0;
 }
 
-#main-para > a {
+.main-para > a {
   font-size: 1.3rem;
   font-weight: bold;
   display: inline-block;
@@ -338,7 +333,7 @@ body > #header-mailinfo {
   /* border: solid 1px #; */
 }
 
-#main-para > a:hover {
+.main-para > a:hover {
   background-color: #000000;
   color: #ffffff;
 }
@@ -359,7 +354,7 @@ body > #header-mailinfo {
   margin-left: 5px;
 }
 
-/* #category-list {
+/* .category-list {
  
 } */
 
@@ -633,7 +628,7 @@ footer  a {
 
 @media screen and (max-width:1025px) {
 
-  #main-para {
+  .main-para {
     /* margin-left: 50px; */
     text-align: center;
     position: absolute;
@@ -642,12 +637,12 @@ footer  a {
     transform: translate(-50%,-50%);
   }
 
-  #main-para h1 {
+  .main-para h1 {
     font-size: 3.5rem;
     line-height: 3rem;
   }
 
-  #main-para p {
+  .main-para p {
     font-size: 1.5rem;
   }
 }
@@ -705,7 +700,7 @@ footer  a {
     
   }
   
-  #main-para {
+  .main-para {
     /* margin-left: 50px; */
     text-align: center;
     position: absolute;
@@ -717,10 +712,9 @@ footer  a {
 
   
   
-  #category-list {
+  .category-list {
     justify-content: space-around;
     flex-wrap: wrap;
-  
   }
 
   .category-wrap {
