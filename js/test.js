@@ -74,22 +74,40 @@ $('.category-slick').slick({
   //     }
   //   },
   //   {
-  //     breakpoint: 780,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1,
-  //       infinite: false,
-  //       dots: false,
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 480,
+  //     breakpoint: 768,
   //     settings: "unslick",
   //   }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   // ]
+});
+
+$('.sub-slick').slick({
+  dots: true,
+  infinite: false,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+          // settings: "unslick",
+        }
+    },
+    {
+      breakpoint: 425,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplaySpeed: 5000,
+        autoplay: true,
+        arrows: true,
+      }
+    }
+  ]
 });
 
 // $(window).on("resize orientationchange", function() {
