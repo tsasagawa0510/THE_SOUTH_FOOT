@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style copy.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,16 +18,7 @@
 
   
   <header>
-    <!-- <nav>
-      <ul>
-        <li><a href="#">FENDER.COM</a></li>
-        <li><a href="#">PLAY</a></li>
-        <li><a href="#">TUNE</a></li>
-        <li><a href="#">ビギナー</a></li>
-        <li><a href="#">ログイン</a></li>
-      </ul>
-    </nav> -->
-    <div id="header-warp">
+    <!-- <div id="header-warp">
       <a href="" class="logo-link"><img src="images/logo.png" id="logo"></a>
       
       <form class="serach" method="post" action="URL" method="get">
@@ -41,7 +32,25 @@
           <img class="header-center-link-img" src="images/hamburger-menu.svg" alt="ナビゲーションを開く">
         </button>
       </div>
+    </div> -->
+
+    <div class="ly-header">
+      <div class="ly_header__inner">
+        <div class="bl-headerUnit">
+          <a href="" class="bl-headerUnit__logo logo"><img src="images/logo_transparent.png" alt=""></a>
+          <form class="bl-headerUnit__search" method="post" action="URL" method="get">
+            <input type="search" name="s" placeholder="Search">
+          </form>
+          <a href="" class="bl-headerUnit__cart"><img src="images/minicart.svg" alt=""></a>
+          <a href="" class="bl-headerUnit__login"><img src="images/locator.svg" alt=""></a>
+          <a href="" class="bl-headerUnit__shop"><img src="images/locator.svg" alt=""></a>
+          <button class="el-btn"><img src="images/hamburger-menu.svg" alt=""></button>
+        </div>
+        <!-- bl-headerUnit -->
+      </div>
+      <!-- ly_header__inner -->
     </div>
+    <!-- ly-header -->
     
     <!-- 1280px以上で表示するnav -->
     <div id="category-nav">
